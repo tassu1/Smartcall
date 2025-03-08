@@ -1,0 +1,23 @@
+.navbar {
+    background-color: black !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0; /* Keeps the navbar slim */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 20px; /* Keeps space between links */
+    font-size: 16px;
+    padding: 5px 12px; /* Slimmer button effect */
+    border-radius: 8px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease, padding 0.2s ease;
+}
+
+.navbar a:hover {
+    background-color: rgb(188, 20, 230); /* Soft hover effect */
+    color: white;
+    padding: 6px 14px; /* Slight expansion for a clean hover effect */
+}
